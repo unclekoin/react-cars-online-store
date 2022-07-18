@@ -1,0 +1,119 @@
+.details-page {
+
+  &__btn {
+    width: 3.5rem;
+    background-color: transparent;
+    transform: rotate(180deg);
+    transition: all 0.2s linear;
+
+    &:hover {
+      transform: translate(-0.5rem) rotate(180deg);
+    }
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    margin: 0 0 2rem;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      padding-top: 3rem;
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &-price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: $pumpkin;
+      letter-spacing: 1px;
+    }
+
+    &-description {
+      text-align: left;
+      line-height: 1.4;
+    }
+
+    &-info-block {
+      display: flex;
+      align-items: center;
+
+      span:first-child {
+        display: inline-block;
+        margin: 0.7rem;
+        font-weight: 700;
+      }
+    }
+
+    &-count {
+      width: 3rem;
+      color: $pumpkin;
+    }
+
+    &-line {
+      width: 100%;
+      height: 2px;
+      margin: 2rem 0 3rem;
+      background-color: $clouds;
+    }
+
+    &-btn-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &-buttons {
+      display: flex;
+      gap: 1rem;
+      padding: 0 0 2rem;
+      font-size: 3rem;
+      font-weight: 500;
+
+      button {
+        background-color: transparent;
+      }
+
+      img {
+        width: 2rem;
+      }
+    }
+
+    &-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    &-add-btn {
+      padding: 0.5rem 2rem;
+      color: $pumpkin;
+      border: 1px solid $pumpkin;
+      border-radius: 3rem;
+      background-color: transparent;
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: #ffffff;
+        background-color: $pumpkin;
+      }
+    }
+  }
+
+  &__car-color {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}

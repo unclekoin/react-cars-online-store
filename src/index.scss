@@ -1,0 +1,22 @@
+@import "./sass/base/normalize";
+@import "./sass/abstracts/variables";
+@import "./sass/base/typography";
+@import "./sass/base/base";
+
+@import "./sass/components/header";
+@import "./sass/components/sidebar";
+@import "./sass/components/main";
+@import "./sass/components/footer";
+@import "./sass/components/card";
+@import "./sass/components/sort";
+@import "./sass/components/filters";
+@import "./sass/components/range-slider";
+@import "./sass/components/overlay";
+@import "./sass/components/popup";
+
+@import "./sass/pages/cars";
+@import "./sass/pages/details";
+@import "./sass/pages/selected";
+@import "./sass/pages/cart";
+
+@import "./app";

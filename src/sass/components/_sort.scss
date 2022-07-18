@@ -1,0 +1,66 @@
+.sort {
+  position: relative;
+
+  &__label {
+    display: flex;
+  }
+
+  &__button {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 1rem;
+
+    b {
+      letter-spacing: 1px;
+    }
+  }
+
+  &__icon {
+    width: 2rem;
+    margin-top: -3px;
+    margin-right: 0.5rem;
+
+    &.rotate {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__select-button {
+    letter-spacing: 1px;
+    color: $pumpkin;
+    border-bottom: 1px dashed $pumpkin;
+  }
+  
+  &__popup {
+    position: absolute;
+    top: 2.2rem;
+    right: 0.3rem;
+    z-index: 10;
+    width: 15rem;  
+    padding: 2rem 0;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px rgba($midnight-blue, 0.3);
+
+    &-list {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      li {
+        width: 100%;
+      }
+    }
+  }
+
+  &__type-button {
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 2rem;
+    text-align: left;
+
+    &.active {
+      background-color: rgba($pumpkin, 0.2)
+    }
+  }
+}

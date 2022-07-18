@@ -1,0 +1,118 @@
+.filter {
+
+  &__title {
+    margin: 0 0 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+
+  &__list {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.color-filter {
+  &__title {
+    margin: 0 0 1rem;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+
+  &__item {
+    &_all {
+      margin-right: 1rem;
+    }
+  }
+
+  &__button {
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    width: 1.5rem;
+
+    &_reset {
+      width: 2rem;
+    }
+  }
+}
+
+.doors-filter {
+  &__list {
+    display: flex;
+  }
+
+  &__button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.4rem;
+    border: 1px solid $midnight-blue;
+    border-radius: 50%;
+
+    &.active {
+      color: #ffffff;
+      background-color: $midnight-blue;
+    }
+  }
+}
+
+.brands-filter {
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  &__button {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+
+    &.active {
+      color: $pumpkin;
+      border-bottom: 1px dashed $pumpkin;;
+    }
+  }
+}
+
+.rating-filter {
+  display: flex;
+  align-items: center;
+
+  &__title {
+    margin: 0 1rem 0 0;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background-color: rgba($midnight-blue, 0.5);
+    }
+
+    img {
+      width: 1.5rem;
+    }
+  }
+}

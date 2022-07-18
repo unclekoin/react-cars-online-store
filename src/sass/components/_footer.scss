@@ -1,0 +1,23 @@
+.footer {
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: $clouds;
+  background-color: $midnight-blue;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__item-image {
+    max-width: 8rem;
+  }
+}

@@ -1,0 +1,104 @@
+.cart-page {
+  &__list {
+    padding: 5rem 0;
+    border-top: 2px solid rgba($midnight-blue, 0.3);
+    border-bottom: 2px solid rgba($midnight-blue, 0.3);
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr) 0.5fr;
+    align-items: center;
+    padding: 1rem 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    &-title {
+      justify-self: start;
+      font-weight: 500;
+    }
+
+    &-price {
+      justify-self: start;
+      color: $pumpkin;
+    }
+
+    &-quantity {
+      justify-self: start;
+      display: flex;
+      align-items: center;
+
+      &_big {
+        font-size: 2.5rem;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        img {
+          width: 2rem;
+        }
+      }
+
+      span {
+        width: 3.5rem;
+        font-size: 2.5rem;
+        line-height: 1;
+      }
+    }
+
+    &-subtotal {
+      justify-self: start;
+
+      &_big {
+        font-size: 2.5rem;
+      }
+    }
+
+    &-delete-btn {
+      justify-self: end;
+      cursor: pointer;
+      img {
+        width: 3rem;
+      }
+    }
+  }
+
+  &__button-group {
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  &__btn {
+    padding: 1rem 2rem;
+    border: 1px solid $midnight-blue;
+    background-color: $clouds;
+    transition: all 0.2s linear;
+
+    &_left {
+      border-right: none;
+      border-top-left-radius: 3.5rem;
+      border-bottom-left-radius: 3.5rem;
+      box-shadow: -1px 3px 7px 0 rgba($midnight-blue, 0.2);
+
+      &:hover {
+        color: #ffffff;
+        background-color: $midnight-blue;
+      }
+    }
+
+    &_right {
+      color: $pumpkin;
+      border-color: $pumpkin;
+      border-top-right-radius: 3.5rem;
+      border-bottom-right-radius: 3.5rem;
+      box-shadow: 1px 3px 7px 0 rgba($midnight-blue, 0.2);
+
+      &:hover {
+        color: #ffffff;
+        background-color: $pumpkin;
+      }
+    }
+  }
+}
