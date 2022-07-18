@@ -8,7 +8,6 @@ import CarsPage from '../../pages/cars/Cars';
 import CartPage from '../../pages/cart/Cart';
 import DetailsPage from '../../pages/details/Details';
 import HomePage from '../../pages/home/Home';
-import NoteFoundPage from '../../pages/not-found/NotFound';
 import SelectedPage from '../../pages/selected/Selected';
 
 const Main: FC = () => {
