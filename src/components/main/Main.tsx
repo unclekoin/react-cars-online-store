@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import {
+  Routes, Route, useLocation, Navigate,
+} from 'react-router-dom';
 
 import AboutPage from '../../pages/about/About';
 import CarsPage from '../../pages/cars/Cars';
@@ -26,7 +28,7 @@ const Main: FC = () => {
           <Route path="/cars/:carId" element={<DetailsPage />} />
           <Route path="/selected" element={<SelectedPage />} />
           <Route path="/cart" element={<CartPage />} />
-          <Route path="*" element={<NoteFoundPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
     </div>
