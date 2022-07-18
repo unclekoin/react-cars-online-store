@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-cars-online-store/static/css/main.31e12d61.css",
-    "main.js": "/react-cars-online-store/static/js/main.2c33b866.js",
+    "main.js": "/react-cars-online-store/static/js/main.2fc7e023.js",
     "static/media/big-car.png": "/react-cars-online-store/static/media/big-car.f3b9e73583301a543ec2.png",
     "static/media/about-image.jpg": "/react-cars-online-store/static/media/about-image.564b585b0f8a51aca9c8.jpg",
     "static/media/home-image.jpg": "/react-cars-online-store/static/media/home-image.9756dd5204c8e2cee174.jpg",
@@ -21,10 +21,10 @@
     "index.html": "/react-cars-online-store/index.html",
     "static/media/triangle.svg": "/react-cars-online-store/static/media/triangle.ed3638d58c558a9adeaf5b6551ce8c6d.svg",
     "main.31e12d61.css.map": "/react-cars-online-store/static/css/main.31e12d61.css.map",
-    "main.2c33b866.js.map": "/react-cars-online-store/static/js/main.2c33b866.js.map"
+    "main.2fc7e023.js.map": "/react-cars-online-store/static/js/main.2fc7e023.js.map"
   },
   "entrypoints": [
     "static/css/main.31e12d61.css",
-    "static/js/main.2c33b866.js"
+    "static/js/main.2fc7e023.js"
   ]
 }
