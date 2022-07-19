@@ -1,5 +1,6 @@
 import React, { FC, useEffect, useState } from 'react';
 import { useMainContext } from '../context/mainContext';
+import { useFilterContext } from '../context/filterContext';
 import { CartData } from '../../models/cart.model';
 import priceFormat from '../../utils/price-format';
 import icon from '../../assets/icons/delete.svg';
@@ -20,6 +21,7 @@ const CartItem: FC<Props> = ({
   id, name, price, stock, setCart, setSum,
 }) => {
   const context = useMainContext();
+  const filterContext = useFilterContext();
   const [count, setCount] = useState<number>(0);
 
   const getStorageData = (): CartData => {
@@ -40,6 +42,7 @@ const CartItem: FC<Props> = ({
   const removeItem = (): void => {
     const data = getStorageData();
     delete data[id];
+    filterContext?.setCart(data);
     localStorage.removeItem('cart');
     localStorage.setItem('cart', JSON.stringify(data));
     context?.changeCartCount();

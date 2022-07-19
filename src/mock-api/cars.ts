@@ -254,6 +254,92 @@ const cars = [
     stock: 4,
     rating: 4.1,
   },
+
+  {
+    id: '67rdca3eeb7f6fgeed471830',
+    name: 'Dodge Journey 5 Doors',
+    model: 'Journey',
+    brand: 'Dodge',
+    description:
+      // eslint-disable-next-line max-len
+      'Compared to the regular Yaris, body has been modified substantially to improve the car\'s looks and performance at the same time. The GR has a roofline that has been lowered by 91 mm and the two doors feature a frameless design for a true coupe look. The body shell is made exclusively from lightweight materials like carbon fiber polymers and aluminum, while the platform allows a rear track with increased width and a double wishbone suspension. The three-cylinder, turbocharged 1.6-liter engine has been pushed further back into the body for better weight distribution while the battery has been relocated to the trunk. The 261 horsepower and 360 Nm of torque go to all four wheels thanks to an advanced all-wheel-drive system that can send up to 100 percent of torque to either the front or the rear, depending on driving situation.',
+    release: 2010,
+    image: '',
+    color: '#2ecc71',
+    body: 'SUV',
+    doors: 5,
+    price: 19800,
+    stock: 2,
+    rating: 3.5,
+  },
+  {
+    id: '67rdca3eeb7f6fgeed471831',
+    name: 'Dodge Caravan 5 Doors',
+    model: 'Caravan',
+    brand: 'Dodge',
+    description:
+      // eslint-disable-next-line max-len
+      'Compared to the regular Yaris, body has been modified substantially to improve the car\'s looks and performance at the same time. The GR has a roofline that has been lowered by 91 mm and the two doors feature a frameless design for a true coupe look. The body shell is made exclusively from lightweight materials like carbon fiber polymers and aluminum, while the platform allows a rear track with increased width and a double wishbone suspension. The three-cylinder, turbocharged 1.6-liter engine has been pushed further back into the body for better weight distribution while the battery has been relocated to the trunk. The 261 horsepower and 360 Nm of torque go to all four wheels thanks to an advanced all-wheel-drive system that can send up to 100 percent of torque to either the front or the rear, depending on driving situation.',
+    release: 2021,
+    image: '',
+    color: '#9b59b6',
+    body: 'Minivan',
+    doors: 5,
+    price: 33750,
+    stock: 4,
+    rating: 4.9,
+  },
+  {
+    id: '67rdca3eeb7f6fgeed471832',
+    name: 'Dodge Charger 4 Doors',
+    model: 'Charger',
+    brand: 'Dodge',
+    description:
+      // eslint-disable-next-line max-len
+      'Compared to the regular Yaris, body has been modified substantially to improve the car\'s looks and performance at the same time. The GR has a roofline that has been lowered by 91 mm and the two doors feature a frameless design for a true coupe look. The body shell is made exclusively from lightweight materials like carbon fiber polymers and aluminum, while the platform allows a rear track with increased width and a double wishbone suspension. The three-cylinder, turbocharged 1.6-liter engine has been pushed further back into the body for better weight distribution while the battery has been relocated to the trunk. The 261 horsepower and 360 Nm of torque go to all four wheels thanks to an advanced all-wheel-drive system that can send up to 100 percent of torque to either the front or the rear, depending on driving situation.',
+    release: 2022,
+    image: '',
+    color: '#16a085',
+    body: 'Sedan',
+    doors: 4,
+    price: 12670,
+    stock: 21,
+    rating: 4.5,
+  },
+  {
+    id: '67rdca3eeb7f6fgeed471833',
+    name: 'Dodge Durango 5 Doors',
+    model: 'Durango',
+    brand: 'Dodge',
+    description:
+      // eslint-disable-next-line max-len
+      'Compared to the regular Yaris, body has been modified substantially to improve the car\'s looks and performance at the same time. The GR has a roofline that has been lowered by 91 mm and the two doors feature a frameless design for a true coupe look. The body shell is made exclusively from lightweight materials like carbon fiber polymers and aluminum, while the platform allows a rear track with increased width and a double wishbone suspension. The three-cylinder, turbocharged 1.6-liter engine has been pushed further back into the body for better weight distribution while the battery has been relocated to the trunk. The 261 horsepower and 360 Nm of torque go to all four wheels thanks to an advanced all-wheel-drive system that can send up to 100 percent of torque to either the front or the rear, depending on driving situation.',
+    release: 2006,
+    image: '',
+    color: '#f1c40f',
+    body: 'SUV',
+    doors: 5,
+    price: 12300,
+    stock: 3,
+    rating: 2.7,
+  },
+  {
+    id: '67rdca3eeb7f6fgeed471834',
+    name: 'Dodge Challenger 2 Doors',
+    model: 'Challenger',
+    brand: 'Dodge',
+    description:
+      // eslint-disable-next-line max-len
+      'Compared to the regular Yaris, body has been modified substantially to improve the car\'s looks and performance at the same time. The GR has a roofline that has been lowered by 91 mm and the two doors feature a frameless design for a true coupe look. The body shell is made exclusively from lightweight materials like carbon fiber polymers and aluminum, while the platform allows a rear track with increased width and a double wishbone suspension. The three-cylinder, turbocharged 1.6-liter engine has been pushed further back into the body for better weight distribution while the battery has been relocated to the trunk. The 261 horsepower and 360 Nm of torque go to all four wheels thanks to an advanced all-wheel-drive system that can send up to 100 percent of torque to either the front or the rear, depending on driving situation.',
+    release: 2013,
+    image: '',
+    color: '#2c3e50',
+    body: 'Sedan',
+    doors: 2,
+    price: 21000,
+    stock: 15,
+    rating: 3.7,
+  },
 ];
 
 export default cars;

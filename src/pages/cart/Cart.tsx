@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Car } from '../../models/car.model';
 import { CartData } from '../../models/cart.model';
 import { useMainContext } from '../../components/context/mainContext';
+import { useFilterContext } from '../../components/context/filterContext';
 
 import CartItem from '../../components/cart-item/CartItem';
 
@@ -12,6 +13,7 @@ import { getTotalSum } from '../../utils/get-sum';
 
 const CartPage: FC = () => {
   const context = useMainContext();
+  const filterContext = useFilterContext();
   const [cart, setCart] = useState<CartData>({});
   const [cars, setCars] = useState<Car[] | []>([]);
   const [sum, setSum] = useState<number>(0);
@@ -38,6 +40,7 @@ const CartPage: FC = () => {
   const clearCart = (): void => {
     localStorage.removeItem('cart');
     context?.setCount(0);
+    filterContext?.setCart({});
     setCart({});
     setSum(0);
   };
